@@ -1,0 +1,17 @@
+[
+	{
+		"name":"Dashboard",
+		"href":"",
+		"icon":"fas fa-tachometer-alt"
+	},
+	{
+		"name":"Vendor Info",
+		"href":"admin/user/edituser/vendor/(:id)",
+		"icon":"fas fa-users"
+	},
+	{
+		"name":"Product",
+		"href":"admin/product/getbyvendor/(:id)",
+		"icon":"fab fa-product-hunt"
+	}
+]

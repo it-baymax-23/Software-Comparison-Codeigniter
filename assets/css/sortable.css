@@ -1,0 +1,48 @@
+ol li
+{
+	margin-bottom:10px;
+}
+ol {
+	max-width: 450px;
+	padding-left: 25px;
+}
+
+ol.sortable,ol.sortable ol {
+	list-style-type: none;
+}
+
+.sortable li div {
+	border: 1px solid #d4d4d4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: move;
+	border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+	margin-bottom: 10px;
+	padding: 3px;
+}
+
+li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
+	border-color: #999;
+}
+
+
+
+.menuDiv {
+	background: #EBEBEB;
+	min-height:30px;
+}
+
+.menuEdit {
+	background: #FFF;
+}
+
+.itemTitle {
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.deleteMenu {
+	float: right;
+	cursor: pointer;
+}

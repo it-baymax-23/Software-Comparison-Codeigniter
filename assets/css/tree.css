@@ -1,0 +1,125 @@
+.tree, .tree ul {
+		    margin:0;
+		    padding:0;
+		    list-style:none
+		}
+		.tree ul {
+		    margin-left:1em;
+		    position:relative
+		}
+		.tree ul ul {
+		    margin-left:.5em
+		}
+		/*.tree ul:before {
+		    content:"";
+		    display:block;
+		    width:0;
+		    position:absolute;
+		    top:0;
+		    bottom:0;
+		    left:0;
+		    border-left:1px solid
+		}*/
+
+		.branch
+		{
+			padding-right:0px;
+		}
+
+		.sub
+		{
+			width:100%;
+		}
+		.tree li {
+		    margin:0;
+		    padding:10px 10px;
+		    line-height:2em;
+		    color:black;
+		    font-weight:400;
+		    position:relative;
+		    cursor:pointer;
+		    box-sizing: border-box;
+		    border:solid 1px rgb(230,230,230);
+		}
+
+		.icon
+		{
+			padding:0px;
+			text-align: center;
+		}
+
+		.branch
+		{
+			padding-left:0px !important;
+		}
+		.icon i
+		{
+			padding-top:15px;			
+			font-size:25px;
+		}
+		.sub
+		{
+			background-color: white;
+		}
+		.sub li
+		{
+			border-top:solid 1px rgb(230,230,230);
+		}
+
+		.category_title
+		{
+			padding-top:10px;
+			padding-right:0px;
+			padding-left:0px;
+			border-left:solid 1px rgb(230,230,230);
+			background-color: rgb(250,250,250);
+		}
+
+		.category_title h4
+		{
+			padding-bottom: 10px;
+		}
+		/*.tree ul li:before {
+		    content:"";
+		    display:block;
+		    width:10px;
+		    height:0;
+		    border-top:1px solid;
+		    margin-top:-1px;
+		    position:absolute;
+		    top:1em;
+		    left:0
+		}
+		.tree ul li:last-child:before {
+		    background:#fff;
+		    height:auto;
+		    top:1em;
+		    bottom:0
+		}*/
+		.indicator {
+		    margin-right:5px;
+		}
+		.tree li a {
+		    text-decoration: none;
+		    color:black;
+		    font-size:16px;
+		}
+
+		.sub li:hover
+		{
+			background-color: rgb(11,152,183);
+		}
+
+		.sub li:hover a
+		{
+			color: white;
+		}
+		.tree li button, .tree li button:active, .tree li button:focus {
+		    text-decoration: none;
+		    color:#369;
+		    border:none;
+		    background:transparent;
+		    margin:0px 0px 0px 0px;
+		    padding:0px 0px 0px 0px;
+		    outline: 0;
+		}

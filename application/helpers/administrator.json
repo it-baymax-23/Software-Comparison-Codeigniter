@@ -1,0 +1,153 @@
+[
+	{
+		"name":"Dashboard",
+		"href":"admin",
+		"icon":"fas fa-tachometer-alt"
+	},
+	{
+		"name":"Admins",
+		"href":"#",
+		"icon":"fas fa-users",
+		"children":[
+			{
+				"name":"All Admins",
+				"href":"admin/user/all/admins"
+			},
+			{
+				"name":"New Admins",
+				"href":"admin/user/newuser/admin"
+			}
+		]
+	},
+	{
+		"name":"Vendor",
+		"href":"#",
+		"icon":"fas fa-users",
+		"children":[
+			{
+				"name":"All Vendors",
+				"href":"admin/user/all/vendor"
+			},
+			{
+				"name":"New Vendor",
+				"href":"admin/user/newuser/vendor"
+			}
+		]
+	},
+	{
+		"name":"Users",
+		"href":"#",
+		"icon":"fas fa-user",
+		"children":[
+			{
+				"name":"All Users",
+				"href":"admin/user/all/buyer"
+			},
+			{
+				"name":"New User",
+				"href":"admin/user/newuser/buyer"
+			}
+		]
+	},
+	{
+		"name":"Product",
+		"href":"#",
+		"icon":"fab fa-product-hunt",
+		"children":[
+			{
+				"name":"All Products",
+				"href":"admin/product"
+			},
+			{
+				"name":"New Product",
+				"href":"admin/product/newproduct"
+			}
+		]
+	},
+	{
+		"name":"Category",
+		"href":"#",
+		"icon":"fa fa-archive",
+		"children":[
+			{
+				"name":"All Category",
+				"href":"admin/category"
+			},
+			{
+				"name":"New Category",
+				"href":"admin/category/newcategory"
+			}
+		]
+	},
+	{
+		"name":"Feature",
+		"href":"#",
+		"icon":"fa fa-tasks",
+		"children":[
+			{
+				"name":"All Feature",
+				"href":"admin/feature"	
+			},
+			{
+				"name":"New Feature",
+				"href":"admin/feature/newfeature"
+			}
+		]
+	},
+	{
+		"name":"Reviews",
+		"href":"#",
+		"icon":"fas fa-star",
+		"children":[
+			{
+				"name":"All Reviews",
+				"href":"admin/review"
+			},
+			{
+				"name":"Review Settings",
+				"href":"admin/review/getsource"
+			}
+		]
+	},
+	{
+		"name":"Blogs",
+		"href":"#",
+		"icon":"fas fa-comments",
+		"children":[
+			{
+				"name":"All Blogs",
+				"href":"admin/blog"
+			},
+			{
+				"name":"Add Blog",
+				"href":"admin/blog/newblog"
+			}
+		]
+	},
+	{
+		"name":"Comparision Tables",
+		"href":"#",
+		"icon":"fas fa-th-list",
+		"children":[
+			{ 
+				"name":"All Compare Tables",
+				"href":"admin/comparetable"
+			},
+			{
+				"name":"Add New Compare Table",
+				"href":"admin/comparetable/newtable"
+			}
+		]
+	},
+	{
+		"name":"Setting",
+		"href":"#",
+		"icon":"fas fa-cogs",
+		"children":[
+			{
+				"name":"Menus",
+				"href":"admin/menu"
+			}
+		]
+	}
+]

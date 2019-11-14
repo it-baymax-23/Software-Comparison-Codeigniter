@@ -1,0 +1,17 @@
+[
+	{
+		"name":"Dashboard",
+		"href":"admin",
+		"icon":"fas fa-tachometer-alt"
+	},
+	{
+		"name":"My Profile",
+		"href":"admin/user/edituser/buyer/(:id)",
+		"icon":"fas fa-users"
+	},
+	{
+		"name":"My Review",
+		"href":"admin/review/getreviewby/(:id)",
+		"icon":"fas fa-star"
+	}
+]
